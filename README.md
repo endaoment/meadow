@@ -1,7 +1,7 @@
 # Components
 For all public components used on Endaoment's app
 
-------example below--------
+### ------example below--------
 
 # example-component-library
 
