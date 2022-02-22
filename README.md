@@ -2,7 +2,19 @@
 
 Component library for web3 applications used, builtl, and designed by [Endaoment](https://endaoment.org).
 
-## 🚅 Quick start
+## Quick start
+
+### Adding package
+
+1.  **Via package manager**
+
+    Install component system via yarn or npm
+
+    ```shell
+    yarn add endaoment/meadow
+    ```
+
+### Previewing components
 
 1.  **Install**
 
@@ -23,7 +35,7 @@ Component library for web3 applications used, builtl, and designed by [Endaoment
 
     Run `yarn storybook` to see component's stories at `http://localhost:6006`
 
-## 🔎 What's inside?
+## What's inside?
 
 A quick look at the top-level files and directories in this library.
 
