@@ -1,95 +1,67 @@
-# Components
+# 🏕 Meadow
 
-For all public components used on Endaoment's app
+Component library for web3 applications used, builtl, and designed by [Endaoment](https://endaoment.org)
 
-### ------example below--------
+## 🚅 Quick start
 
-# example-component-library
+1.  **Install the dependencies.**
 
-Example repository for a shared React components library
+    Navigate into your new site’s directory and install the necessary dependencies.
 
-## Examples
+    ```shell
+    # Navigate to the directory
+    cd meadow/
 
-- [storybook example output](https://rpearce.github.io/example-component-library/)
+    # Install the dependencies
+    yarn
+    ```
 
-## Component Structure
+2.  **Browse your stories!**
 
-```
-.
-└── source
-    └── ComponentA
-        ├── __snapshots__
-        │   └── test.tsx.snap
-        ├── index.tsx
-        ├── stories.tsx
-        ├── styles.css
-        └── test.tsx
-    └── ComponentB
-        └── ...
-    └── ComponentC
-        └── ...
-```
+    Run `yarn storybook` to see component's stories at `http://localhost:6006`
 
-The component and everything to do with it are co-located in the
-`source/ComponentA/` folder:
+## 🔎 What's inside?
 
-- `index` component file (and any additional component files)
-- stories
-- CSS
-- tests
+A quick look at the top-level files and directories included with this template.
 
-## Importing
+    .
+    ├── .storybook
+    ├── node_modules
+    ├── public
+    ├── src
+    ├── .env
+    ├── .gitignore
+    ├── LICENSE
+    ├── package.json
+    ├── yarn.lock
+    └── README.md
 
-### JS
+1.  **`.storybook`**: This directory contains Storybook's [configuration](https://storybook.js.org/docs/react/configure/overview) files.
 
-Component JavaScript can be imported in a few different ways:
+2.  **`node_modules`**: This directory contains all of the modules of code that your project depends on (npm packages).
 
-```js
-// importing from the index file
-import { Circle } from "mylib";
+3.  **`public`**: This directory will contain the development and production build of the site.
 
-// import directly from the esm build
-import Circle from "mylib/dist/esm/Circle";
+4.  **`src`**: This directory will contain all of the code related to what you will see on your application.
 
-// import directly from the commonjs build
-import Circle from "mylib/dist/cjs/Circle";
+5.  **`.env`**: Simple text configuration file for controlling the application's environment constants.
 
-// import directly from the umd build
-import Circle from "mylib/dist/umd/Circle";
-```
+6.  **`.gitignore`**: This file tells git which files it should not track or maintain during the development process of your project.
 
-### CSS
+7.  **`LICENSE`**: The template is licensed under the MIT licence.
 
-Component CSS can be imported like this:
+8.  **`package.json`**: Standard manifest file for Node.js projects, which typically includes project specific metadata (such as the project's name, the author among other information). It's based on this file that npm will know which packages are necessary to the project.
 
-```js
-import "mylib/dist/css/Circle/styles.css";
-```
+9.  **`yarn.lock`**: This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(Do not change it manually).**
 
-If you wish to import _all_ components' CSS:
+10. **`README.md`**: A text file containing useful reference information about the project.
 
-```js
-import "mylib/dist/css/styles.css";
-```
+## Contribute
 
-## A Note About Exports
+If you encounter an issue with the template, we encourage you to open an issue in this template's repository.
 
-All components are exported in `source/index.ts`, and their inclusion here is
-what allows them to get included in the build output in `dist`.
+## Learning Storybook
 
-```js
-// source/index.ts
-
-export { default as Circle } from "./Circle";
-export { default as Rectangle } from "./Rectangle";
-```
-
-## Developing
-
-You can look inside `package.json` to see all the scripts, but here are some
-helpful ones:
-
-- Build all the things: `$ npm run build`
-- Run the Storybook examples: `$ npm start`
-- Run the tests: `$ npm test`
-- Run the linter: `$ npm run lint`
+1. Read our introductory tutorial at [Learn Storybook](https://storybook.js.org/tutorials/intro-to-storybook/react/en/get-started/).
+2. Learn how to transform your component libraries into design systems in our [Design Systems for Developers](https://storybook.js.org/tutorials/design-systems-for-developers/) tutorial.
+3. See our official documentation at [Storybook](https://storybook.js.org/).
