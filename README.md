@@ -1,6 +1,8 @@
 # 🏕 Meadow
 
-Component library for web3 applications used, builtl, and designed by [Endaoment](https://endaoment.org).
+[In Progress]
+
+Component library for web3 applications used, built, and designed by [Endaoment](https://endaoment.org).
 
 ## Quick start
 
@@ -11,7 +13,7 @@ Component library for web3 applications used, builtl, and designed by [Endaoment
     Install component system via yarn or npm
 
     ```shell
-    yarn add endaoment/meadow
+    yarn add @endaoment/meadow
     ```
 
 ### Previewing components
