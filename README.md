@@ -10,7 +10,7 @@ Component library for web3 applications used, builtl, and designed by [Endaoment
 
     ```shell
     # Clone repo
-    git clone https://github.com/endaoment/meadow
+    git clone https://github.com/endaoment/meadow.git
 
     # Navigate to the directory
     cd meadow/
